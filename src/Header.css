@@ -1,0 +1,21 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    text-emphasis: none;
+    font-size: 20px;
+    color: red;
+       
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav a:hover {
+    color: red;
+  }
+  

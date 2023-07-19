@@ -32,7 +32,77 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.data-container {
+  width: 400px;
+  ;
+  height: 500px;
+  ;
+  position: absolute;
+  top: 15%;
+  bottom: 15%;
+  left: 35%;
+
+  background-image: linear-gradient(#a82837, #d54f5f);
+
+  /* opacity: 0.6; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.login-up-form {
+  width: 330px;
+  height: 430px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+
+.login-up-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.input-box {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 5px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input-box:active {
+  border: 1px solid green;
+}
+
+.login-btn {
+  width: 60%;
+  background-color: #d54f5f;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #be1e31;
 }
